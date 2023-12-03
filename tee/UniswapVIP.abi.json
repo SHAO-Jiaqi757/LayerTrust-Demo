@@ -1,0 +1,53 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_addr",
+                "type": "address"
+            }
+        ],
+        "name": "isAddrVIP",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "name": "isVIP",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address[]",
+                "name": "_VIPs",
+                "type": "address[]"
+            }
+        ],
+        "name": "setVIPs",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]
