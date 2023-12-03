@@ -3,6 +3,7 @@ Uniswap VIP Oracle contract live on: https://goerli.etherscan.io/address/0xc6f6b
 
 Any dApps can query `isAddrVIP(address _addr)` function to determine whether an address is Uniswap VIP.
 
+For example, Uniswap can integrate this Oracle contract, offer discounted swap fees for these VIP addresses.
 
 ## How it works
 Inside LayerTrust TEE:
